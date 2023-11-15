@@ -15,6 +15,7 @@ namespace AnimalsApi.Controllers
         _db = db;
     }
 
+
     // GET api/animals
     [HttpGet]
     public async Task<List<Animal>> Get(string species, string name, string description)
